@@ -22,7 +22,7 @@ public class Main {
         ArrayList<Integer> numbers = new ArrayList<>();
 
 
-        if(args.length < 2){
+        if(args.length < 1){
 
             System.out.println("Digite 10 numero inteiros: ");
 
@@ -32,7 +32,7 @@ public class Main {
                 numbers.add(sc.nextInt());
             }
         }
-        for (int i = 1; i < args.length; i++){
+        for (int i = 0; i < args.length; i++){
 
             numbers.add(Integer.parseInt(args[i]));
 
