@@ -2,8 +2,12 @@ public class Main {
     public static void main(String[] args) {
 
         int numberOfSentence = Integer.parseInt(args[0]);
+
         for (int i = 1; i < numberOfSentence + 1; i++){
 
+            if(args[i].length() < 2 || args[i].length() > 100){
+                continue;
+            }
            StringBuilder firstHalf = new StringBuilder();
            firstHalf.append(args[i], 0, args[i].length() / 2);
            firstHalf.reverse();
@@ -13,7 +17,6 @@ public class Main {
            secondHalf.reverse();
 
            System.out.println(firstHalf + secondHalf.toString());
-
         }
     }
 }
