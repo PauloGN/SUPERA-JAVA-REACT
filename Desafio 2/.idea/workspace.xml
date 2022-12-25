@@ -4,38 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec28d1f8-a71b-49c6-b04f-7cdb31f21a39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Desafio-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Desafio 3/Desafio-3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Desafio 4/Desafio-4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="ec28d1f8-a71b-49c6-b04f-7cdb31f21a39" name="Changes" comment="Desafio 2 - Comment and review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafio 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-01/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-2/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-2/Desafio-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-2/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-3/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-3/Desafio-3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-3/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-4/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-4/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-4/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-4/Desafio-4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Desafio-4/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +28,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/Java/DB/DESAFIO/SUPERA-JAVA-REACT/Desafio 3"
   }
 }]]></component>
   <component name="RunManager">
@@ -66,19 +37,6 @@
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Desafio-2" />
       <option name="PROGRAM_PARAMETERS" value="478.79" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Desafio-2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Desafio-2" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671305621828</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Desafio 2 - Comment and review">
+      <created>1671931644000</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671931644000</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Desafio 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio 2" />
+    <MESSAGE value="Desafio 2 - Comment and review" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio 2 - Comment and review" />
   </component>
 </project>
