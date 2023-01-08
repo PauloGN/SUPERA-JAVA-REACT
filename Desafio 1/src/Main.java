@@ -9,14 +9,22 @@ public class Main {
     */
     public static boolean SwitchPos(int n1, int n2){
 
+        //case 1 do not switch position if n1 is even and n2 is odd
         if (n1 % 2 == 0 && n2 % 2 != 0 ){
             return false;
         }
 
+        //case 2 switch position if n1 is odd and n2 is even
         if (n1%2 != 0 && n2 % 2 == 0 ){
             return true;
         }
 
+        //case 3 switch position is two numbers are odd and n2 is greater than n1
+        if(n1 % 2 != 0 && n2 % 2 != 0){
+            return n2 > n1;
+        }
+
+        //case 4 switch position if n1 is greater than n2
         return n1 > n2;
     }
 
@@ -48,7 +56,6 @@ public class Main {
             for (int j = i+1; j<numbers.size(); j++ ) {
 
                 if(SwitchPos(numbers.get(i), numbers.get(j))){
-
                     int temp = numbers.get(i);
                     numbers.set(i, numbers.get(j));
                     numbers.set(j, temp);

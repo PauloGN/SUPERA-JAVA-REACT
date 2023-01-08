@@ -38,7 +38,7 @@ public class Controller {
 /*
 * controller é a classe que contem os endpoints;
 *
-* endpoints são funçoes que são execultadas ao recever um request
+* endpoints são funçoes que são execultadas ao receber um request
 *
 *
 *
