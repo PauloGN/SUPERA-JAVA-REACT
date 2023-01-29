@@ -1,16 +1,13 @@
 package br.com.banco.models;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "products")
 public class Product {
 
     @Id//chave primaria
-    @Column(name = "productCode")
+    @Column(name = "productCode")//nome igual a da tabela no DB
     public String productCode;
 
     @Column(name = "productName")
@@ -36,5 +33,8 @@ public class Product {
 
     @Column(name = "MSRP")
     public double MSRP;
+
+    @Transient//Nao criar uma coluna no DB
+    public double discount;
 
 }

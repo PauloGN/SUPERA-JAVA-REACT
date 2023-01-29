@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
 @org.springframework.stereotype.Controller
-public class Controller {
+public class ProductController {
 
-    @Autowired
+    @Autowired //
     ProductRepository productRepository;
 
     @GetMapping("/api/v1/test")
