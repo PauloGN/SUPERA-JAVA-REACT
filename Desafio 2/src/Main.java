@@ -21,10 +21,10 @@ public class Main {
         currency.add(.25f);
         currency.add(.1f);
         currency.add(.05f);
-        currency.add(.01f);
+        currency.add(.01f); //12 currencies 11 indices
 
         //Store the amount of currency into respective index
-        int[] amount = new int[currency.size()];
+        int[] amountOfCurrency = new int[currency.size()];
 
         //The value remaining after calculating each banknote and coin
         float remainingValue = value;
@@ -32,9 +32,9 @@ public class Main {
         for(int i = 0 ; i < currency.size();i++){
 
             //Truncate the amount value to get only the integer part (amount of currency)
-            amount[i] = (int)(remainingValue / currency.get(i));
+            amountOfCurrency[i] = (int)(remainingValue / currency.get(i));
             //Get the remaining value
-            remainingValue = (remainingValue - amount[i] * currency.get(i));
+            remainingValue = (remainingValue - amountOfCurrency[i] * currency.get(i));
             //remainingValue = remainingValue % currency.get(i); another way to calculate remaining value
             if(remainingValue == 0.f){
                 break;
@@ -45,19 +45,19 @@ public class Main {
         System.out.println("NOTAS: ");
         for (int i = 0; i < 7; i++){
 
-            if(amount[i] == 0)
+            if(amountOfCurrency[i] == 0)
                 continue;
 
-            System.out.printf("%d notas de R$ %.2f\n", amount[i], currency.get(i));
+            System.out.printf("%d notas de R$ %.2f\n", amountOfCurrency[i], currency.get(i));
         }
         //Printing out coins
         System.out.println("MOEDAS: ");
         for (int i = 7; i < currency.size(); i++){
 
-            if(amount[i] == 0)
+            if(amountOfCurrency[i] == 0)
                 continue;
 
-            System.out.printf("%d moedas de R$ %.2f\n", amount[i], currency.get(i));
+            System.out.printf("%d moedas de R$ %.2f\n", amountOfCurrency[i], currency.get(i));
         }
     }
 }

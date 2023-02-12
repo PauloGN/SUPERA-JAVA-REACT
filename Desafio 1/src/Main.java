@@ -5,7 +5,7 @@ public class Main {
 
     /*
     Checks two integers and decides if the order must be changed,
-    Numbers must follow even crescent and odd crescent order respectively.
+    Numbers must follow even crescent and odd decrescent order respectively.
     */
     public static boolean SwitchPos(int n1, int n2){
 
@@ -19,7 +19,7 @@ public class Main {
             return true;
         }
 
-        //case 3 switch position is two numbers are odd and n2 is greater than n1
+        //case 3 switch position if two numbers are odd and n2 is greater than n1
         if(n1 % 2 != 0 && n2 % 2 != 0){
             return n2 > n1;
         }
@@ -30,7 +30,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ArrayList<Integer> numbers = new ArrayList<>();
+        ArrayList<Integer> numbers = new ArrayList();
 
         //just in case of no external arguments
         if(args.length < 1){
@@ -52,7 +52,6 @@ public class Main {
 
         //Simple bubble sort algorithm.
         for (int i = 0; i<numbers.size(); i++){
-
             for (int j = i+1; j<numbers.size(); j++ ) {
 
                 if(SwitchPos(numbers.get(i), numbers.get(j))){

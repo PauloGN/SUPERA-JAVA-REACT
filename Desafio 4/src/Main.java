@@ -1,3 +1,7 @@
+
+//Given a bunch of shuffled sentences create an algorithm to fix the sentences
+//with the first arg equals the number of sentences and then the sentences to be fixed
+
 public class Main {
     public static void main(String[] args) {
 
@@ -16,7 +20,9 @@ public class Main {
            secondHalf.append(args[i], args[i].length() / 2, args[i].length());
            secondHalf.reverse();
 
-           System.out.println(firstHalf + secondHalf.toString());
+           String fixedSentence = firstHalf + secondHalf.toString();
+
+           System.out.println(fixedSentence);
         }
     }
 }
